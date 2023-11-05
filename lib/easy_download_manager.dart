@@ -1,7 +1,5 @@
 library easy_download_manager;
-
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'package:easy_download_manager/src/easy_download_manager.dart';
+export 'package:easy_download_manager/src/model/download_item.dart';
+export 'package:easy_download_manager/src/common/enums.dart';
+export 'package:easy_download_manager/src/common/widgets/flex_image.dart';
